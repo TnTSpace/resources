@@ -1,0 +1,7 @@
+	const meta: iMeta = {
+		title: 'Cart | Beuzibah Stores',
+		description: 'Style, Beauty, and Innovation Delivered!',
+		ogimage: 'https://www.beuzibahstores.com/screenshot-wide.webp',
+		link: 'https://www.beuzibahstores.com/',
+		keywords: ['cart', 'search', 'product', 'price', 'tag', 'buy', 'shop']
+	};

@@ -1,0 +1,10 @@
+
+				{#if product.colors && product.colors.length}
+					<div class="mt-2 flex items-center gap-1">
+						{#each product.colors as color, i}
+							<div style={`background-color: ${color}`} class="size-4 rounded-full"></div>
+						{/each}
+					</div>
+				{:else}
+					<div></div>
+				{/if}

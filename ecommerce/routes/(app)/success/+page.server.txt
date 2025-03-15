@@ -1,0 +1,17 @@
+// import type { iOrder } from '$lib/interface';
+// import { getOrder } from '$lib/xata/order';
+// import type { PageServerLoad } from './$types';
+
+// export const load = (async ({ url }) => {
+//   const reference = url.searchParams.get('reference') as string
+
+//   const partialOrder: Partial<iOrder> = { reference }
+
+//   const result = await getOrder(partialOrder)
+
+//   const order = await result.data as iOrder
+
+//   console.log({ order, from: "success server page" })
+
+//   return { order }
+// }) satisfies PageServerLoad;
